@@ -8,7 +8,7 @@ public class GameOfLifeController : MonoBehaviour
     public int height = 10;
     public GameObject cellPrefab;
     public float cellSpacing = 0.1f;
-    public float cellScale = 0.8f;
+    public float cellScale = 0.5f;
     public Vector2 gridOffset = new Vector2(0f, 0.5f);
 
     [Header("Simulation Settings")]
